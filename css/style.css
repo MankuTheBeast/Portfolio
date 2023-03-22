@@ -1,0 +1,73 @@
+/****************/
+/* HERO SECTION */
+/****************/
+.main-header {
+  height: 4.8rem;
+}
+
+.main-nav-list {
+  padding: 1.6rem;
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+}
+
+.section-hero-title {
+  font-size: 9.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: linear-gradient(225deg, #c12525 0%, #f4d443 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text-container {
+  display: grid;
+  gap: 1.6rem;
+  padding-inline: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero-text-container p:first-child {
+  justify-self: end;
+}
+
+/* .hero-text-container p:last-child {
+  justify-self: start;
+} */
+
+.section-hero-text {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.get-in-touch {
+  text-decoration: none;
+  color: inherit;
+  align-self: end;
+  border-bottom: 1px solid #f5b64b;
+  width: 21%;
+  font-size: 1.2rem;
+  justify-self: center;
+}
+
+.my-picture {
+  border-top-right-radius: 100rem;
+  border-bottom-right-radius: 100rem;
+  overflow: hidden;
+  width: 129.6rem;
+  height: 45rem;
+}
